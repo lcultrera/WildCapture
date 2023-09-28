@@ -12,8 +12,22 @@ The dataset used in this work can be found at https://drive.google.com/drive/fol
 
 ## Code
 
-The code for our experiments is organized in the `code/` directory. You can find detailed instructions on how to run the code and reproduce the results in the `code/README.md` file.
+The code for our experiments is organized as follow: 
 
+project_root/
+├── config/
+│   ├── config.yaml  # Configuration file for parameters
+│   └── ...
+├── data/
+│   ├── dataloader.py  # Data loading and preprocessing
+│   └── ...
+├── model/
+│   ├── vit_model.py  # Define the VitModel class
+│   └── ...
+├── train/
+│   ├── train.py  # Training script
+│   └── loss_optimizer.py  # Loss functions and optimizers
+└── ...
 ## Citation
 
 If you find this work useful in your research, please consider citing: TBD
