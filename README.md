@@ -15,10 +15,15 @@ The dataset used in this work can be found at https://drive.google.com/drive/fol
 The code for our experiments is organized as follow: 
 
 project_root/
+
 ├── config/
+
 │   ├── config.yaml  # Configuration file for parameters
+
 │   └── ...
+
 ├── data/
+
 │   ├── dataloader.py  # Data loading and preprocessing
 │   └── ...
 ├── model/
