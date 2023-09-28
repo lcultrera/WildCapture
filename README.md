@@ -16,7 +16,7 @@ The code for our experiments is organized as follow:
 
 project_root/
 
-├── Train_Code/  # Train script, dataloader, model and Configuration file  
+├── Train_Code/  #ViT Classifier Code: Train script, dataloader, model and Configuration file  
 
 
 └── ...
