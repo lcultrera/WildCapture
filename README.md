@@ -16,29 +16,8 @@ The code for our experiments is organized as follow:
 
 project_root/
 
-├── config/
+├── Train_Code/  # Train script, dataloader, model and Configuration file  
 
-│   ├── config.yaml  # Configuration file for parameters
-
-│   └── ...
-
-├── data/
-
-│   ├── dataloader.py  # Data loading and preprocessing
-
-│   └── ...
-
-├── model/
-
-│   ├── vit_model.py  # Define the Model class
-
-│   └── ...
-
-├── train/
-
-│   ├── train.py  # Training script
-
-│   └── loss_optimizer.py  # Loss functions and optimizers
 
 └── ...
 ## Citation
