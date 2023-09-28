@@ -25,13 +25,21 @@ project_root/
 ├── data/
 
 │   ├── dataloader.py  # Data loading and preprocessing
+
 │   └── ...
+
 ├── model/
-│   ├── vit_model.py  # Define the VitModel class
+
+│   ├── vit_model.py  # Define the Model class
+
 │   └── ...
+
 ├── train/
+
 │   ├── train.py  # Training script
+
 │   └── loss_optimizer.py  # Loss functions and optimizers
+
 └── ...
 ## Citation
 
