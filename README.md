@@ -1,7 +1,6 @@
 # WildCapture
-# Out Of Distribution Generalization in Computer Vision Workshop (ICCV 2023)
 
-This repository contains the code and dataset used in the paper titled "Out Of Distribution Generalization in Computer Vision Workshop" published at ICCV 2023, Paris Out Of Distribution Generalization in Computer Vision workshop.
+This repository contains the code and dataset used in the paper titled "Leveraging Visual Attention for out-of-distribution Detection" published at ICCV 2023, Paris Out Of Distribution Generalization in Computer Vision workshop.
 
 ## Paper Abstract
 
