@@ -19,17 +19,26 @@ WildCapture/
 Train_Vit_Classifier/
 │
 ├── dataloader/
+
 │ ├── dataloader.py
+
 │ └── datasetSplitter.py
+
 │
 ├── config/
+
 │ ├── config.yaml
+
 |
 ├── loss_optimizer/
+
 │ ├── loss_optimizer.py
+
 │
 ├── model/
+
 │ ├── VitModel.py
+
 │
 │
 └── train.py #train the vit classifier 
