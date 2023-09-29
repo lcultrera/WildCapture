@@ -1,3 +1,0 @@
-dest_file: reconstrError.pkl
-model_path: AutoEncoderWeights.pt
-batch_size: 1

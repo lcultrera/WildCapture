@@ -1,7 +1,0 @@
-train_csv: /equilibrium/luca/ReWire_OOD/NoHuman-CLS/heatMapVit8.csv
-val_csv: /equilibrium/luca/ReWire_OOD/NoHuman-CLS-VAL/heatMapVit8.csv
-batch_size: 4
-num_workers: 4
-num_epochs: 200
-learning_rate: 0.0001
-model_path: autoencoder_model.pth
