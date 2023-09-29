@@ -91,12 +91,13 @@ if __name__ == "__main__":
     img_size = config["img_size"]
     data_dir = config["data_folder"]
     weighted_sampling = config["weighted_sampling"]
+    train_split = config["train_split"]
 
     # Set device (cuda or cpu)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     # Load data using your DataLoader function
-    dataloaders, dataset_sizes, class_names = load_data(data_dir, batch_size, num_workers, img_size, weighted_sampling)
+    dataloaders, dataset_sizes, class_names = load_data(data_dir, batch_size, num_workers, img_size, weighted_sampling, train_split)
 
     # Create an instance of your VitModel class
     model = VitModel(num_classes=len(class_names))
