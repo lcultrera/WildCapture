@@ -5,3 +5,4 @@ learning_rate: 0.001
 img_size: 512
 data_folder: ./data
 weighted_sampling: True
+train_split: 0.8
