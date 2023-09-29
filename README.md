@@ -42,43 +42,6 @@ model.load_state_dict(torch.load(model_weights_path))
 model.eval()
 ## Code
 ```
-## Code
-The code for our experiments is organized as follow: 
-
-WildCapture/
-
-Train_Vit_Classifier/
-│
-
-├── dataloader/
-
-│ ├── dataloader.py
-
-│ └── datasetSplitter.py
-
-│
-
-├── config/
-
-│ ├── config.yaml
-
-|
-
-├── loss_optimizer/
-
-│ ├── loss_optimizer.py
-
-│
-
-├── model/
-
-│ ├── VitModel.py
-
-│
-
-└── train.py #train the vit classifier 
-
-## Citation
 
 If you find this work useful in your research, please consider citing: TBD
 
