@@ -45,8 +45,6 @@ Train_Vit_Classifier/
 
 │
 
-│
-
 └── train.py #train the vit classifier 
 
 ## Citation
