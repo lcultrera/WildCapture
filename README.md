@@ -10,6 +10,26 @@ This repository contains the code and dataset used in the paper titled "Leveragi
 
 The dataset used in this work can be found at https://drive.google.com/drive/folders/1823UnVK94NYRTokxkzBbgeYRVL8YSPG4?usp=drive_link. Detailed instructions for data preparation and usage can be found in the `dataset/README.md` file.
 
+## PreTrained Weights
+
+You can download the pre-trained classifier weights for the model from the following link:
+
+[Download Classifier Weights]((https://drive.google.com/file/d/1sLRQfSZ03ByHjpkOIYxQSIsslHlm-Pvn/view?usp=sharing))
+
+### Instructions
+
+1. Click on the "Download Classifier Weights" link above.
+2. Save the downloaded file to a location on your local machine.
+3. You can then load the weights into your model using the provided code in the `test_classifier.py` script.
+
+```python
+import torch
+
+# Load the pre-trained classifier weights
+model_weights_path = 'path_to_downloaded_weights'
+model = YourModel()
+model.load_state_dict(torch.load(model_weights_path))
+model.eval()
 ## Code
 
 The code for our experiments is organized as follow: 
