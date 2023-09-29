@@ -3,7 +3,7 @@ import torch
 from torchvision import datasets, transforms
 from dataloader.datasetSplitter import DatasetSplitter
 
-def load_data(data_dir, batch_size, num_workers, img_size, weighted_sampling=False, train_perc=0.8):
+def load_data(data_dir, batch_size, num_workers, img_size, weighted_sampling=False, split_dataset=False, train_perc=0.8):
     """
     Load and preprocess the dataset.
 
@@ -19,9 +19,10 @@ def load_data(data_dir, batch_size, num_workers, img_size, weighted_sampling=Fal
         dataset_sizes (dict): Dictionary containing the sizes of 'train' and 'val' sets.
         class_names (list): List of class names.
     """
-    if train_perc < 1.0:
-        splitter = DatasetSplitter(data_dir, os.path.join(data_dir, 'train'), os.path.join(data_dir, 'val'), train_perc)
-        splitter.split_dataset()
+    if split_dataset == True:
+        if train_perc < 1.0:
+            splitter = DatasetSplitter(data_dir, os.path.join(data_dir, 'train'), os.path.join(data_dir, 'val'), train_perc)
+            splitter.split_dataset()
     
     data_transforms = {
         'train': transforms.Compose([
