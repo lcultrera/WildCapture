@@ -69,28 +69,4 @@ Train_Vit_Classifier/
 
 If you find this work useful in your research, please consider citing: TBD
 
-Project_name/
-├── data/
-│   ├── train/
-│   └── validation/
-├── config/
-│   ├── autoencoder_config.yaml
-│   └── classifier_config.yaml
-├── dataloader/
-│   ├── dataLoader.py
-│   └── datasetSplitter.py
-├── loss_optimizer/
-│   ├── loss_optimizer.py
-│   └── ae_loss_optimizer.py
-├── model/
-│   ├── AutoEncoder.py
-│   └── VitModel.py
-├── train/
-│   ├── train_classifier.py
-│   └── train_autoencoder.py
-├── utils/
-│   ├── autoencoder_utils.py
-│   └── classifier_utils.py
-├── README.md
-└── requirements.txt
 
