@@ -68,8 +68,12 @@ def main():
     image_path = 'crops/00000325.jpg' #open an image from crop folder
     x = preprocess_image(image_path, img_size)
 
-    out, cls, attn = model(x)
-    _, preds = torch.max(out, 1)
+    if extract_attention == True:
+        out, cls, attn = model(x)
+        _, preds = torch.max(out, 1)
+    else:
+        out = model(x)
+        _, preds = torch.max(out, 1)
 
     classes = ['Domestic Cattle', 'Eurasian Badger', 'European Hare', 'Grey Wolf', 'Red Deer', 'Red Fox', 'Wild Boar']
     predicted_class = classes[preds.cpu().numpy()[0]]
