@@ -6,6 +6,8 @@ from torch.optim import lr_scheduler
 from dataLoader import load_data  # Import your DataLoader function
 from VitModel import VitModel  # Import your VitModel class
 from loss_optimizer import create_loss_optimizer  # Import your loss and optimizer function
+import yaml
+
 
 def train_model(model, dataloaders, dataset_sizes, criterion, optimizer, scheduler, num_epochs, device):
     """
@@ -73,18 +75,26 @@ def train_model(model, dataloaders, dataset_sizes, criterion, optimizer, schedul
     return best_model_wts
 
 if __name__ == "__main__":
-    # Define training parameters
-    batch_size = 16
-    num_workers = 4
-    num_epochs = 20
-    learning_rate = 0.001
-    img_size = 512
+    
+    # Define the path to the YAML config file
+    config_path = 'config.yaml'
+
+    # Load the config file
+    with open(config_path, 'r') as config_file:
+        config = yaml.safe_load(config_file)
+
+    # Extract parameters from the config
+    batch_size = config["batch_size"]
+    num_workers = config["num_workers"]
+    num_epochs = config["num_epochs"]
+    learning_rate = config["learning_rate"]
+    img_size = config["img_size"]
+    data_dir = config["data_folder"]
 
     # Set device (cuda or cpu)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     # Load data using your DataLoader function
-    data_dir = '/equilibrium/luca/crop_w_dates_redux'  # Change to your dataset path
     dataloaders, dataset_sizes, class_names = load_data(data_dir, batch_size, num_workers, img_size)
 
     # Create an instance of your VitModel class
