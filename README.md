@@ -8,7 +8,7 @@ This repository contains the code and dataset used in the paper titled "Leveragi
 
 ## Dataset
 
-The dataset used in this work can be found at https://drive.google.com/drive/folders/1823UnVK94NYRTokxkzBbgeYRVL8YSPG4?usp=drive_link. Detailed instructions for data preparation and usage can be found in the `dataset/README.md` file.
+The dataset used in this work can be found at https://drive.google.com/drive/folders/1823UnVK94NYRTokxkzBbgeYRVL8YSPG4?usp=drive_link. 
 
 ## PreTrained Weights
 
