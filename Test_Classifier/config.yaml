@@ -1,0 +1,4 @@
+num_classes: 7
+img_size: 224
+model_path: modelTRANSFORMER_VIT
+extract_attention: false
