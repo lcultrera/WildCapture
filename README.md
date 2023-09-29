@@ -22,13 +22,14 @@ You can download the pre-trained classifier weights for the model from the follo
 
 ```python
 import torch
-
+<pre>
 # Load the pre-trained classifier weights
 model_weights_path = 'path_to_downloaded_weights'
 model = YourModel()
 model.load_state_dict(torch.load(model_weights_path))
 model.eval()
 ## Code
+</pre>
 
 The code for our experiments is organized as follow: 
 
