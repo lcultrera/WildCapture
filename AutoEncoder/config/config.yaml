@@ -1,5 +1,5 @@
-train_csv: /equilibrium/luca/ReWire_OOD/NoHuman-CLS/heatMapVit8.csv
-val_csv: /equilibrium/luca/ReWire_OOD/NoHuman-CLS-VAL/heatMapVit8.csv
+train_csv: Train csv File
+val_csv: Test csv File
 batch_size: 4
 num_workers: 4
 num_epochs: 200
