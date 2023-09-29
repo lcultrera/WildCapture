@@ -28,7 +28,7 @@ model = YourModel()
 model.load_state_dict(torch.load(model_weights_path))
 model.eval()
 ## Code
-```python
+```
 
 The code for our experiments is organized as follow: 
 
