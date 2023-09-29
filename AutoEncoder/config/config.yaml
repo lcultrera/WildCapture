@@ -1,5 +1,5 @@
-train_csv: Train csv File
-val_csv: Test csv File
+train_csv: InDistribution.csv
+val_csv: InDistribution_val.csv
 batch_size: 4
 num_workers: 4
 num_epochs: 200
