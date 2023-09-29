@@ -3,7 +3,7 @@ num_workers: 4
 num_epochs: 20
 learning_rate: 0.001
 img_size: 224
-data_folder: /equilibrium/luca/crop_w_dates_redux
+data_folder: ./data
 weighted_sampling: True
 split_dataset: False
 train_split: 0.8
