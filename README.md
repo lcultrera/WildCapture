@@ -12,9 +12,7 @@ The dataset used in this work can be found at https://drive.google.com/drive/fol
 
 ## PreTrained Weights
 
-You can download the pre-trained classifier weights for the model from the following link:
-
-[Download Classifier Weights]((https://drive.google.com/file/d/1sLRQfSZ03ByHjpkOIYxQSIsslHlm-Pvn/view?usp=sharing))
+You can download the pre-trained classifier weights for the model from the following link: https://drive.google.com/file/d/1sLRQfSZ03ByHjpkOIYxQSIsslHlm-Pvn/view?usp=sharing
 
 ### Instructions
 
