@@ -7,7 +7,7 @@ from dataLoader import load_data  # Import your DataLoader function
 from VitModel import VitModel  # Import your VitModel class
 from loss_optimizer import create_loss_optimizer  # Import your loss and optimizer function
 import yaml
-
+import tqdm
 
 def train_model(model, dataloaders, dataset_sizes, criterion, optimizer, scheduler, num_epochs, device):
     """
@@ -42,7 +42,7 @@ def train_model(model, dataloaders, dataset_sizes, criterion, optimizer, schedul
             running_loss = 0.0
             running_corrects = 0
 
-            for inputs, labels in dataloaders[phase]:
+            for inputs, labels in tqdm.tqdm(dataloaders[phase]):
                 inputs = inputs.to(device)
                 labels = labels.to(device)
 
