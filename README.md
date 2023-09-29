@@ -13,6 +13,7 @@ The dataset used in this work can be found at https://drive.google.com/drive/fol
 ## PreTrained Weights
 
 You can download the pre-trained classifier weights for the model from the following link: https://drive.google.com/file/d/1sLRQfSZ03ByHjpkOIYxQSIsslHlm-Pvn/view?usp=sharing
+You can find the pretrained weights for the Convolutional AutoEncoder in the folder AutoEncoder/AutoEncoder_Weights
 
 ### Instructions
 
@@ -29,7 +30,7 @@ model.load_state_dict(torch.load(model_weights_path))
 model.eval()
 ## Code
 ```
-
+## Code
 The code for our experiments is organized as follow: 
 
 WildCapture/
