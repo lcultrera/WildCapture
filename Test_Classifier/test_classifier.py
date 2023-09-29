@@ -33,7 +33,7 @@ def preprocess_image(image_path, img_size):
     return x
 
 def main():
-    model_path = 'modelTRANSFORMER_VIT'
+    model_path = 'modelTRANSFORMER_VIT' #Link to download the weights in README
     img_size = 224
     num_classes = 8
 
