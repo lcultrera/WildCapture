@@ -19,8 +19,9 @@ This repository contains the code and dataset used in the paper titled "Leveragi
 
 ## Dataset
 
-The dataset used in this work can be found at https://drive.google.com/drive/folders/1823UnVK94NYRTokxkzBbgeYRVL8YSPG4?usp=drive_link. As mentioned in the paper the dataset can be splitted to perform OOD detection tasks.
-
+The dataset used in this work can be found at https://drive.google.com/drive/folders/1823UnVK94NYRTokxkzBbgeYRVL8YSPG4?usp=drive_link. As mentioned in the paper the dataset can be splitted to perform OOD detection tasks. All the pre-trained models provided in this repo refer to the following dataset split:
+In distribution: Domestic Cattle, Eurasian Badger, European Hare, Grey Wolf, Red Deer, Red Fox, Wild Boar
+Out-Of-Distribution: Beech Marten, Crested Porcupine, Domestic Dog, Domestic Horse, European Roe Deer, Persian Fallow Deer, Western Polecat, Wild Cat
 
 ## PreTrained Models
 
