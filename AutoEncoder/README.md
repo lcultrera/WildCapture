@@ -4,7 +4,7 @@ This folder contains code and instructions for training and using an autoencoder
 
 The dataset is organized in a CSV file that lists all the images (attention heatmaps).
 
-##Dataset structure
+## Dataset Structure
 
 In this repository, we provide the attention heatmaps dataset for both In-Distribution (Used to train the Autoenceoder) and Out-of-Distribution classes (with which you can calculate the reconstruction error for OOD samples). You can find the datasets at the link: https://drive.google.com/file/d/1S9iIM33BBdagDBEqWDRTaAtFMhSreAiO/view?usp=sharing.
 
@@ -18,6 +18,6 @@ Out-Of-Distribution: Beech Marten, Crested Porcupine, Domestic Dog, Domestic Hor
 
 However you can train from scratch the classifier and the AutoEncoder with a different split.
 
-Pretrained Models
+## Pretrained Models
 
 You can find pretrained autoencoder weights in the folder "AutoEncoder_Weights"
