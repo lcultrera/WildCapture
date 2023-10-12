@@ -47,6 +47,15 @@ model.eval()
 ## Code
 ```
 
-If you find this work useful in your research, please consider citing: TBD
+If you find this work useful in your research, please consider citing: 
 
+```latex
+@inproceedings{cultrera2023leveraging,
+  title={Leveraging Visual Attention for out-of-Distribution Detection},
+  author={Cultrera, Luca and Seidenari, Lorenzo and Del Bimbo, Alberto},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={4447--4456},
+  year={2023}
+}
+```
 
